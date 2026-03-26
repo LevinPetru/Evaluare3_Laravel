@@ -16,7 +16,7 @@
                         <input type="text" name="name" value="{{ $product->name }}" class="form-control" required>
                     </div>
                     <div class="col-md-3 mb-3">
-                        <label>Preț (RON)</label>
+                        <label>Preț</label>
                         <input type="number" step="0.01" name="price" value="{{ $product->price }}" class="form-control" required>
                     </div>
                     <div class="col-md-3 mb-3">

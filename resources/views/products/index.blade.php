@@ -21,7 +21,7 @@
                         <input type="text" name="name" class="form-control" required>
                     </div>
                     <div class="col-md-3 mb-3">
-                        <label>Preț (RON)</label>
+                        <label>Preț</label>
                         <input type="number" step="0.01" name="price" class="form-control" required>
                     </div>
                     <div class="col-md-3 mb-3">
@@ -74,7 +74,7 @@
                 <td>
                     <small>
                         Producător: {{ $p->producer }}<br>
-                        Preț: {{ $p->price }} RON | Stoc: {{ $p->quantity }}<br>
+                        Preț: {{ $p->price }} | Stoc: {{ $p->quantity }}<br>
                         Rating: {{ $p->rating }}/5 ⭐
                     </small>
                 </td>
